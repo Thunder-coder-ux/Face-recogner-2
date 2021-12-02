@@ -1,0 +1,40 @@
+<html>
+    <head><title>Face recognisor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+<link href="style..css" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+        <h1>Face Recognition</h1>
+        <hr>
+        <br><br>
+        <div class="memb">
+            <h3>Kamin(me)</h3>
+        </div>
+        <div class="memb">
+            <h3>Brother</h3>
+        </div>
+        <div class="memb">
+            <h3>Mother</h3>
+        </div>
+        <div class="memb">
+            <h3>Father</h3>
+        </div>
+        <br><br>
+        <br><hr>
+        <div id="webcam"></div>
+        <br>
+        <div id="imga"></div>
+        <br><br>
+        <button class="btn btn-success" onclick="take_snapshot()">Click image</button>
+        <br><br>
+        <button class="btn btn-primary" onclick="indentify()">Indentify</button>
+        </center>
+    </body>
+</html>
